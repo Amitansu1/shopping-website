@@ -297,3 +297,140 @@ hr{
         left: 100%;
     }
 }
+/* 📱 RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1024px) {
+  .content {
+    left: 5%;
+    max-width: 90%;
+  }
+
+  .feature {
+    width: 300px;
+    top: 20%;
+    left: 5%;
+  }
+
+  .lipstick {
+    left: 50%;
+    width: 200px;
+  }
+
+  .vogue {
+    left: 75%;
+    width: 200px;
+  }
+
+  .two {
+    width: 90%;
+    padding: 80px;
+  }
+
+  .about {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+
+  footer .row {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .col {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .content {
+    left: 5%;
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 45px;
+  }
+
+  .feature,
+  .lipstick,
+  .vogue {
+    display: none;
+  }
+
+  .about {
+    padding: 50px 20px;
+  }
+
+  .two {
+    padding: 50px;
+    width: 100%;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  footer {
+    border-top-left-radius: 50px;
+    padding: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn {
+    padding: 12px 25px;
+    font-size: 13px;
+  }
+
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  form button {
+    align-self: center;
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .logo2 {
+    width: 60px;
+  }
+}
